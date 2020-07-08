@@ -6,13 +6,13 @@ module.exports = function(grunt) {
           style: 'compressed',
         },
         files: {
-          'media/assets/css/main.css': 'media/assets/sass/main.scss',
+          'test_django_vue/assets/css/main.css': 'test_django_vue/assets/sass/main.scss',
         },
       },
     },
     watch: {
       sass: {
-        file: ['media/assets/css/*.scss'],
+        file: ['test_django_vue/assets/css/*.scss'],
         tasks: ['sass:dist'],
       },
     },
